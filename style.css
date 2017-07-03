@@ -1,0 +1,118 @@
+.blackSection {
+  width: 99vw !important;
+  height: 100vh !important;
+color: white;
+background: url('bg2.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.section {
+  width: 99vw !important;
+  height: 100vh !important;
+  color: black;
+  padding-top: 5%;
+}
+.intro {
+  background: url('bg4.jpg');
+  border-radius: 360px;
+  width: 40% !important;
+  background-position: center;
+  background-size: cover;
+  height: 90% !important;
+  }
+
+.redSection {
+  width: 99vw !important;
+  height: 100vh !important;
+  /*background-color: #F44336;*/
+
+  color: white;
+}
+body {
+  width: 99vw !important;
+  background: url('bg1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+nav {
+  background: url('bg2.jpg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+footer {
+  background: url('bg2.jpg');
+  background-position: bottom;
+  background-size: cover;
+
+}
+.me {
+  width: 20vw;
+  /*height: 20vh;*/
+  position: relative;
+  top: 15vh;
+}
+.intro-text {
+  position: relative;
+  top: 10vh;
+  color: white;
+  font-weight: bold;
+  font-size: 300%;
+}
+
+
+.carousel.carousel-slider {
+  height: 80vh !important;
+}
+.bg3 {
+  background: url('bg3.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.leaf1 {
+  background: url('leaf2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.leaf2 {
+  background: url('leaf3.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.leaf3 {
+  background: url('leaf4.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.leaf4 {
+  background: url('leaf5.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.textbox {
+
+  background: url("bg2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 25vh;
+   width: 50%;
+}
+.textbox-transparent {
+
+  height: 25vh;
+   width: 50%;
+}

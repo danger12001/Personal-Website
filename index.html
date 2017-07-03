@@ -1,88 +1,191 @@
 <html>
+
 <head>
-   <!-- Compiled and minified CSS -->
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
 
-  <!-- Compiled and minified JavaScript -->
-        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
 
 </head>
 
 
 <body>
-
-  <div class='container'>
-    <p>Paragraph describing where i come from, why I code and what I enjoy doing when I am not coding</p>
-  </div>
-
-
-    <ul class="collapsible popout" data-collapsible="accordion">
-    <li>
-      <div class="collapsible-header"><i class="material-icons">filter_drama</i>Websites</div>
-      <div class="collapsible-body">
-        <div class='row'>
-          <div class='col s6'>
-          simplimantis website
-          </div>
-          <div class='col s6'>
-          Spaza Shop
-          </div>
+    <nav>
+        <div class="nav-wrapper">
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
         </div>
-
-      </div>
-    </li>
-    <li>
-      <div class="collapsible-header"><i class="material-icons">place</i>Mobile Apps</div>
-      <div class="collapsible-body"><span>Food App</span></div>
-    </li>
-    <li>
-      <div class="collapsible-header"><i class="material-icons">whatshot</i>Just for fun</div>
-      <div class="collapsible-body">
-       <div class='row'>
-          <div class='col s4'>
-          Platformer Game
-          </div>
-          <div class='col s4'>
-          Repository Forest
-          </div>
-         <div class='col s4'>
-          Brick Breaker
-         </div>
-        </div>
-      </div>
-    </li>
-  </ul>
-
-
-
-
-
-
-  <footer class="page-footer red">
-          <div class="container">
-            <div class="row">
-              <div class="col l6 s12">
-                <h5 class="white-text">Contact Me!</h5>
-                <p class="grey-text text-lighten-4">
-                  Email: <a href='mailto:robertsonpsd@gmail.com'>robertsonpsd@gmail.com</a></br>
-                </p>
-              </div>
-              <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Or Find Me At:</h5>
-                <ul>
-                  <li><a class="grey-text text-lighten-3" href="https://github.com/danger12001">Github</a></li>
-                  <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/paul-robertson-0620a510a/">LinkedIn</a></li>
-                </ul>
-              </div>
+    </nav>
+    <div id='intro' class='section'>
+        <div class='row' align='center'>
+            <div class='col s12'>
+                <div class='intro'>
+                    <img src='paul.gif' class='me' />
+                    <p class='intro-text'>Paul Robertson</p>
+                </div>
             </div>
-          </div>
-          <div class="footer-copyright">
 
-          </div>
-        </footer>
+        </div>
+    </div>
+    <div id='about' class=' redSection'>
+
+        <div class='row'>
+            <div class='textbox-transparent col s12'></div>
+            <div class='textbox col s12'>
+                <div class='row'>
+                    <div align='center' class='col s4'>
+                        <h3>Code</h3>
+                        <p>I enjoy solving problems, code provides the perfect platform for me to find solutions to difficult tasks</p>
+                    </div>
+                    <div align='center' class='col s4'>
+                        <h3>Music</h3>
+                        <p>I like making music because it gives me a platform to extend how I am feeling.</p>
+                    </div>
+                    <div align='center' class='col s4'>
+                        <h3>Art</h3>
+                        <p>These are all forms of art, I even enjoy drawing and writing.</p>
+                    </div>
+                </div>
+            </div>
+            <div align='center' class='textbox col s12'>
+
+                <div class='row'>
+                    <div style='margin-top: 2.5%;' class='col s12'>
+                        <h5>I am a person that really enjoys expressing my creativity in any form. I enjoy spending time perfecting something to either be visually beautiful or to be running optimally. </h5>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class='blackSection' id='projects'>
+
+        <div class='row'>
+
+            <div class="carousel carousel-slider center" data-indicators="true">
+                <div class="carousel-item bg3 white-text" href="#one!">
+                    <h1>SIMPLIMANTIS WEBSITE</h1>
+                    <h2 class="white-text">A website I helped build for a small startup company called Simplimantis. The website in its current state is all representation of my work with html and css along with materialize.</h2>
+                    <p class="white-text"><a target="_blank" style='color: white; font-weight: 600' href='http://www.simplimantis.com'>Click here to go to the website!</a></p>
+                    <div class='row'>
+                        <div class='col s2'> <img class="materialboxed" data-caption="" style='border: 1px solid black; width: 100%; height: 100px;' src="images/smw/smw1.png"> Home page</div>
+                        <div class='col s2'> <img class="materialboxed" data-caption="" style='border: 1px solid black; width: 100%; height: 100px;' src="images/smw/smw2.png"> About page</div>
+                        <div class='col s2'> <img class="materialboxed" data-caption="" style='border: 1px solid black; width: 100%; height: 100px;' src="images/smw/smw3.png"> Process page</div>
+                        <div class='col s2'> <img class="materialboxed" data-caption="" style='border: 1px solid black; width: 100%; height: 100px;' src="images/smw/smw4.png"> Tech Stack page</div>
+                        <div class='col s2'> <img class="materialboxed" data-caption="" style='border: 1px solid black; width: 100%; height: 100px;' src="images/smw/smw5.png"> Team page</div>
+                        <div class='col s2'> <img class="materialboxed" data-caption="" style='border: 1px solid black; width: 100%; height: 100px;' src="images/smw/smw6.png"> Contact page</div>
+                    </div>
+
+
+                </div>
+                <div class="carousel-item leaf1 white-text" href="#two!">
+                    <h1>Nelisa Spaza Shop</h1>
+                    <h2 class="white-text">A webapp created while studying at project CodeX. The webapp uses NodeJs paired with express as the webserver and handlebars as the templating engine. The webapp is connected to a MySql database and is deployed via digital ocean.</h2>
+
+                    <p class="white-text">Create an account to view products and prices. Or <a style='color: white; font-weight: 600' href='mailto:robertsonpsd@gmail.com'>Contact Me</a> for the admin details for viewing, add, edit and delete functionality on products, purchases,
+                        sales and categories</p>
+                    <p class="white-text"><a target="_blank" style='color: white; font-weight: 600' href='http://paulspazashop.projectcodex.co/login'>Click here to go to the webapp!</a></p>
+                    <div class='row'>
+                        <div class='col s3'> <img class="materialboxed" data-caption="" style='border: 1px solid black; width: 100%; height: 150px;' src="images/ss/ss1.png"> Login page</div>
+                        <div class='col s3'> <img class="materialboxed" data-caption="" style='border: 1px solid black; width: 100%; height: 150px;' src="images/ss/ss2.png"> Home page</div>
+                        <div class='col s3'> <img class="materialboxed" data-caption="" style='border: 1px solid black; width: 100%; height: 150px;' src="images/ss/ss3.png"> Sales page</div>
+                        <div class='col s3'> <img class="materialboxed" data-caption="" style='border: 1px solid black; width: 100%; height: 150px;' src="images/ss/ss5.png"> Statistics week 1</div>
+
+                    </div>
+                </div>
+                <div class="carousel-item leaf2 white-text" href="#three!">
+                    <h1>Brick Breaker!</h1>
+                    <h2 class="white-text">Brick breaker in your browser! Created using p5.js</h2>
+                    <p class="white-text"><a target="_blank" style='color: white; font-weight: 600' href='https://danger12001.github.io/brickBreaker-p5.js/'>Click here to go to the webapp!</a></p>
+                    <div class='row'>
+                        <div class='col s6'> <img class="materialboxed" data-caption="" style='border: 1px solid black; width: 100%; height: 250px;' src="images/bb/bb1.png">
+                        </div>
+                        <div class='col s6'> <img class="materialboxed" data-caption="" style='border: 1px solid black; width: 100%; height: 250px;' src="images/bb/bb2.png">
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="carousel-item leaf3 white-text" href="#four!">
+                    <h1>Platformer Game</h1>
+                    <h6 class="white-text">Built a platformer game using nodejs paired with express as a webserver, phaser.io and firebase to store the level and player data(no logins die ingame to reset the game).</h6>
+                    <p class="white-text">To run, just type npm install, then run server.js with node.</p>
+                    <p class="white-text"><a target="_blank" style='color: white; font-weight: 600' href='https://github.com/danger12001/platformer'>Click here to go to the github page!</a></p>
+                    <div class='row'>
+                        <div class='col s4'> <img class="materialboxed" data-caption="" style='border: 1px solid black; width: 100%; height: 200px;' src="images/p/p1.png">
+                        </div>
+                        <div class='col s4'> <img class="materialboxed" data-caption="" style='border: 1px solid black; width: 100%; height: 200px;' src="images/p/p2.png">
+                        </div>
+                        <div class='col s4'> <img class="materialboxed" data-caption="" style='border: 1px solid black; width: 100%; height: 200px;' src="images/p/p3.png">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="carousel-item leaf4 white-text" href="#five!">
+                    <h1>My Virtual Forest</h1>
+                    <h2 class="white-text">A webapp built to simulate the growth of my coding ability, each tree is a repository from my github account generated with p5.js. Hovering your mouse over trees will also give you a general description of the repository!</h2>
+                    <p class="white-text">To run, just type npm install, then run app.js with node.</p>
+                    <p class="white-text"><a target="_blank" style='color: white; font-weight: 600' href='https://github.com/danger12001/portfolio'>Click here to go to the github page!</a></p>
+                    <div class='row'>
+                        <div class='col s4'> <img class="materialboxed" data-caption="" style='border: 1px solid black; width: 100%; height: 150px;' src="images/t/t1.png">
+                        </div>
+                        <div class='col s4'> <img class="materialboxed" data-caption="" style='border: 1px solid black; width: 100%; height: 150px;' src="images/t/t2.png">
+                        </div>
+                        <div class='col s4'> <img class="materialboxed" data-caption="" style='border: 1px solid black; width: 100%; height: 150px;' src="images/t/t3.png">
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+
+
+
+            <footer  class="page-footer">
+                <div id='contact' class="container">
+                    <div class="row">
+                        <div class="col l6 s12">
+                            <h5 class="white-text">Contact Me!</h5>
+                            <p class="grey-text text-lighten-4">
+                                Email: <a href='mailto:robertsonpsd@gmail.com'>robertsonpsd@gmail.com</a></br>
+                            </p>
+                        </div>
+                        <div class="col l4 offset-l2 s12">
+                            <h5 class="white-text">Or Find Me At:</h5>
+                            <ul>
+                                <li><a class="grey-text text-lighten-3" href="https://github.com/danger12001">Github</a></li>
+                                <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/paul-robertson-0620a510a/">LinkedIn</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+
+                </div>
+
+            </footer>
+
+
+            <script>
+                $('.carousel.carousel-slider').carousel({
+                    fullWidth: true
+                });
+            </script>
 </body>
+
 </html>
